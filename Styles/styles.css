@@ -92,10 +92,12 @@ footer ul li {
     display: inline;
     margin: 15px;
 }
+
 #bigPic {
     float: right;
 }
-#aboutUs {
+
+.aboutUs {
     font-size: 23px;
 }
 
