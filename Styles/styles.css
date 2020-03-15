@@ -1,0 +1,174 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+}
+
+header {
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li:hover {
+    background-color: mediumaquamarine;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside {
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+    display: block;
+    margin-bottom: 150px;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    width: 100%;
+}
+
+footer {
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+#bigPic {
+    float: right;
+}
+#aboutUs {
+    font-size: 23px;
+}
+
+#active {
+    background-color: brown;
+}
+
+#manager {
+    border: 1px solid transparent;
+    margin: 1px;
+    margin-bottom: 200px;
+}
+
+#manager img{
+    float: right;
+}
+
+.staff {
+    margin: 1px;
+    margin-right: 8px;
+}
+
+.video {
+    border: 1px solid grey;
+    margin: 1px;
+}
+
+iframe{
+    float: left;
+}
+
+#desserts{
+    margin: 1px;
+    column-count: 3;
+    column-rule: 2px solid white;
+}
+.backgroundImageA {
+    background-image: url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageB {
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC {
+    background-image: url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.col_article {
+    column-count: 3;
+}
+
+.courses{
+    text-align: center;
+}
+
+.coursesImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

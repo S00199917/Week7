@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This website is to show our range of chefs as well the food that we can offer">
+        <meta name="keywords" content="food, chef, sligo, foodmarket">
+        <title>Foodmarket Sligo</title>
+        <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+        <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32"/>
+    </head>
+    <body>
+        <header>
+            <img style="float: lef; height: 50 px; width: 50px;" src="Images/logo.png" alt="logo.png">
+            <h1>Foodmarket Sligo</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li id="active"><a href="video.html">Video Tour</a></li>
+                <li><a href="audio.html">Sounds of food</a></li>
+            </ul>
+        </nav>
+        
+        <section class="video">
+            <h1>Video Section</h1>
+            <video controls loop width="300" height="369">
+                <source src="video/food.mp4" type="video/mp4">
+                <source src="video/food.ogg" type="video/ogg">
+                Your browser does not support HTML5 Video.
+            </video>
+        </section>
+        <!--Not sure how to move they youtube video up beside the .mp4 or how to prevent the footer overlapping the video-->
+        <section class="video">
+            <h2>Video from Youtube using iframe and video tag</h2>
+            Select Share and Use video embed code form youtube.com:
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ub06gV4gzxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <main>
+            <section id="desserts">
+                <h2>Chocolate Desserts</h2>
+                <img src="Images/dessert1.jpg" alt="dessert1.jpg" width="100">
+                <p>
+                    Chocolate is typically sweet, usually brown food preparation of Theobaroma cacao seeds, roasted and ground, and often flavored with vanilla. It is made in the form of a liquid, paste, or in a block, or used as a flavoring ingreadient in other foods.Cacao has been cultivated by many cultures for at least three millennia in Mesoamerica. The earliest evidence of use traces to the Mokaya *Mexico and Guatemala), with evidence of chocolate beverages    dating back to 1900 BCE. The seeds of the cacao tree have an intense bitter taste and must be fermented to develop the flavor. after fermentation, the beans are dried, cleaned and roasted. The shell is removed to produce cacao nibs, whihc are then ground to cocoa mass, unadultrated chocolate in rough form. Once the cocoa mass is liquefied by heating, it is called chocolate liquor. The liquor also may be cooled and processed into its two components: cocoa solids and cocoa butter. Baking chocolate, also called bitter chocolate, contains cocoa solids and cocoa butter in varying proportions, without any added sugars.
+                </p>
+            </section>
+            
+            <br>
+            <h2>About our Food</h2>
+            <p>
+                Lorem Ipsum is simply dummy test of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy test ever since the 1500s, when an unknown printer tooka a galley of type and scrambled it to make a type specimen book. It has survived noiot only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was populised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </main>
+        
+        <footer>
+            <a href="#top">Go to Top of Page</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="video.html">Video Tour</a></li>
+                <li><a href="audio.html">Sounds of food</a>
+            </ul>
+            
+            <p>
+                &copy; 2020 Sligo Food
+            </p>
+        </footer>
+    </body>
+</html>
